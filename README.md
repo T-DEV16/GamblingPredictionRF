@@ -3,17 +3,6 @@
 
 This project implements a Random Forest model to predict gambling behavior based on intracranial EEG (iEEG) data. The predictor is designed to classify whether a subject will gamble or opt for a safe bet during a decision-making task. The data used is less than 2 GB, and while the current accuracy is around 65%, larger datasets can potentially improve prediction accuracy.
 
-Requirements
-Python 3.6+
-Required Python libraries:
-numpy
-h5py
-scikit-learn
-You can install the required Python libraries using the following command:
-
-bash
-Copy code
-pip install numpy h5py scikit-learn
 Dataset
 The dataset used in this project is stored in an HDF5 file named BrainWaveData.mat. It includes high-gamma power spectral data from different brain regions and behavioral data indicating whether a gamble was made.
 
