@@ -1,7 +1,6 @@
-# GamblingPredictionRF
+# Random Forest Predictor for iEEG Data
 
 
-Random Forest Predictor for iEEG Data
 This project implements a Random Forest model to predict gambling behavior based on intracranial EEG (iEEG) data. The predictor is designed to classify whether a subject will gamble or opt for a safe bet during a decision-making task. The data used is less than 2 GB, and while the current accuracy is around 65%, larger datasets can potentially improve prediction accuracy.
 
 Requirements
